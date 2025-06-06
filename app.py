@@ -1,6 +1,9 @@
-def main():
-    print("Hello from GitHub Actions!")
+def my_function(x, y):
+    print("test")
+    return x + y
 
 
-if __name__ == "__main__":
-    main()
+x = 1
+y = 2
+result = my_function(x, y)
+print(result)
